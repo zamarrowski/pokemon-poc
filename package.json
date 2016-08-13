@@ -1,0 +1,24 @@
+{
+  "name": "pokemon-poc",
+  "version": "1.0.0",
+  "description": "Pokemon POC with Angular 1.X, ES6 and webpack",
+  "main": "app/app.module.js",
+  "scripts": {
+    "start": "concurrently 'lite-server' 'webpack --watch'"
+  },
+  "author": "zamarrowski",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-ui-router": "^0.3.1",
+    "webpack": "^1.13.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.13.2",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.13.2",
+    "concurrently": "^2.2.0",
+    "html-loader": "^0.4.3",
+    "lite-server": "^2.2.2"
+  }
+}
